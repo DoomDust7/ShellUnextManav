@@ -35,7 +35,12 @@
 		"parameters": {
 			"account_name": {
 				"type": "array",
-				"defaultValue": "ab-8672"
+				"defaultValue": [
+					"aaa",
+					"bbb",
+					"ccc",
+					"ddd"
+				]
 			}
 		},
 		"annotations": []
