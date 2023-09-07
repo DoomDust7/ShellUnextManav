@@ -1,0 +1,9 @@
+{
+	"name": "manav",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b8899a0c-d81e-4992-9ad3-71b682533865",
+		"tenantId": "dce87315-8ffa-4a01-ab40-0de5a7214b2f"
+	}
+}
