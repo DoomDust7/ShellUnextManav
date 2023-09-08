@@ -17,7 +17,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "AzureSqlSource",
-						"sqlReaderQuery": "CREATE PROCEDURE USP_GetDataSourceTable\nAS\nBEGIN\n\tselect * from data_source_table where PersonID=2;\nEND",
+						"sqlReaderStoredProcedureName": "[dbo].[USP_GetDataSourceTable]",
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},
