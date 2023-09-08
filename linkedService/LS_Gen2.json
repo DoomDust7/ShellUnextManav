@@ -1,0 +1,12 @@
+{
+	"name": "LS_Gen2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://sa08septmanav.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEU1MzNFRDlBLUFCRjItNDNBMi1BRDc3LTE2QzNGRjY5Q0NBN19hZWMwOGUwYS01NjY0LTRmM2UtYTkyNi0wNmJjY2UwYjRlMmQiDQp9"
+		}
+	}
+}
