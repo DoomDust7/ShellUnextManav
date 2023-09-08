@@ -30,7 +30,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "AzureSqlSource",
-						"sqlReaderQuery": "select*from data_source_table where \nLastModifytime > LookupOldWaterMarkActivity.WatermarkValue\nand\nLastModifytime <= LookupOldWaterMarkActivity.NewWatermarkvalue",
+						"sqlReaderQuery": "select * from data_source_table where \nLastModifytime > LookupOldWaterMarkActivity.WatermarkValue\nand\nLastModifytime <= LookupOldWaterMarkActivity.NewWatermarkvalue",
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},
